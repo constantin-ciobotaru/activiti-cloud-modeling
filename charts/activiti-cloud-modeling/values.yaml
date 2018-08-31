@@ -3,6 +3,13 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 global:
+  rabbitmq:
+    host:
+      value: ""
+    username:
+      value: guest
+    password:
+      value: guest
   keycloak:
     url: ""
 javaOpts:
