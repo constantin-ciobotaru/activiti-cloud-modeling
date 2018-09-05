@@ -12,10 +12,6 @@ global:
       value: guest
   keycloak:
     url: ""
-activiti:
-  cloud:
-    modeling:
-      url: activiti-cloud-modeling
 javaOpts:
   xmx: 512m
   xms: 512m
@@ -25,7 +21,7 @@ image:
   tag: dev
   pullPolicy: IfNotPresent
 service:
-  name: activiti-cloud-modeling
+  name: modeling-app
   type: ClusterIP
   externalPort: 80
   internalPort: 8080
