@@ -12,6 +12,10 @@ global:
       value: guest
   keycloak:
     url: ""
+activiti:
+  cloud:
+    modeling:
+      url: activiti-cloud-modeling
 javaOpts:
   xmx: 512m
   xms: 512m
